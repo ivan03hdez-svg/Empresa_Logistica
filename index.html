@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transporte Terrestre | Logística Global</title>
+
+  <!-- Tipografía -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Estilo base -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- HEADER -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-900">LOGÍSTICA TERRESTRE</h1>
+      <ul class="hidden md:flex gap-6">
+        <li><a href="#inicio" class="hover:text-blue-700">Inicio</a></li>
+        <li><a href="#servicios" class="hover:text-blue-700">Servicios</a></li>
+        <li><a href="#contacto" class="hover:text-blue-700">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="h-screen flex items-center justify-center bg-cover bg-center text-white"
+    style="background-image: url('img/camion.jpg');">
+    <div class="bg-black/60 p-8 rounded-lg text-center" data-aos="fade-up">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Soluciones de Transporte Terrestre</h2>
+      <p class="text-lg mb-6">Entregas confiables, seguras y puntuales a nivel nacional e internacional.</p>
+      <a href="#servicios" class="bg-blue-700 hover:bg-blue-900 text-white px-6 py-3 rounded-lg transition">Conoce más</a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN SERVICIOS -->
+  <section id="servicios" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center mb-12">
+      <h3 class="text-3xl font-bold text-blue-900" data-aos="fade-down">Nuestros Servicios</h3>
+      <p class="text-gray-600 mt-4">Nos especializamos en transporte terrestre con cobertura nacional y soluciones personalizadas.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="fade-up">
+        <h4 class="text-xl font-bold text-blue-800 mb-2">Transporte de carga completa</h4>
+        <p>Movemos grandes volúmenes en rutas optimizadas con seguridad y eficiencia.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
+        <h4 class="text-xl font-bold text-blue-800 mb-2">Distribución nacional</h4>
+        <p>Red de transporte en todo el país, con seguimiento en tiempo real.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+        <h4 class="text-xl font-bold text-blue-800 mb-2">Transporte especializado</h4>
+        <p>Unidades adaptadas para mercancías sensibles, refrigeradas o de alto valor.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto text-center mb-12">
+      <h3 class="text-3xl font-bold text-blue-900" data-aos="fade-down">Contáctanos</h3>
+      <p class="text-gray-600 mt-4">Envíanos un mensaje y nos pondremos en contacto contigo lo antes posible.</p>
+    </div>
+
+    <form class="max-w-3xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md" data-aos="fade-up">
+      <div class="grid md:grid-cols-2 gap-6 mb-4">
+        <input type="text" placeholder="Nombre" class="p-3 rounded border border-gray-300 w-full focus:outline-blue-700">
+        <input type="email" placeholder="Correo electrónico" class="p-3 rounded border border-gray-300 w-full focus:outline-blue-700">
+      </div>
+      <textarea rows="5" placeholder="Mensaje" class="p-3 rounded border border-gray-300 w-full focus:outline-blue-700 mb-4"></textarea>
+      <button type="submit" class="bg-blue-700 hover:bg-blue-900 text-white px-6 py-3 rounded-lg transition w-full">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-900 text-white py-6 text-center">
+    <p>&copy; 2025 Logística Terrestre. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="main.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+</html>
