@@ -22,8 +22,8 @@
 
 <body class="bg-white text-gray-800">
 
-  <!-- HEADER -->
-  <header class="bg-white fixed w-full shadow-md z-50">
+<!-- HEADER -->
+<header class="bg-white/60 static w-full shadow-md z-50 backdrop-blur-md">
   <nav class="max-w-7xl mx-auto flex justify-between items-center p-4">
     <!-- LOGO + NOMBRE -->
     <div class="flex items-center space-x-3">
@@ -41,15 +41,23 @@
   </nav>
 </header>
 
+<!-- HERO -->
+<section id="inicio"
+  class="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat w-full text-white pt-[96px]"
+  style="background-image: url('img/fondo.jpg');">
+  
+  <div class="bg-black/60 p-8 rounded-lg text-center" data-aos="fade-up">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">Entregas confiables, seguras y puntuales</h2>
+    <p class="text-lg mb-6">“Educamos la logística, transformamos el servicio.”</p>
+    <a href="#servicios"
+       class="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-6 py-3 rounded-lg transition">
+      Conoce más
+    </a>
+  </div>
+</section>
 
-  <!-- HERO -->
-  <section id="inicio" class="h-screen flex items-center justify-center bg-cover bg-center text-white">
-    <div class="bg-black/60 p-8 rounded-lg text-center" data-aos="fade-up">
-      <h2 class="text-4xl md:text-6xl font-bold mb-4">Entregas confiables, seguras y puntuales</h2>
-      <p class="text-lg mb-6">“Educamos la logística, transformamos el servicio.”</p>
-      <a href="#servicios" class="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-6 py-3 rounded-lg transition">Conoce más</a>
-    </div>
-  </section>
+
+
 
     <!-- SECCIÓN QUIÉNES SOMOS -->
   <section id="quienes-somos" class="py-20 bg-white">
